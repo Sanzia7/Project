@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.product_form {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px;
+	margin: 100px;
+	width: 1000px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 50px;
+}
+
+input {
+	height: 50px;
+	width: 200px;
+}
+.product-container {
+	margin: 100px;
+	width: 1200px;
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 20px;
+}
+
+button {
+	background-color: rgb(245, 164, 58);
+	height: 50px;
+	width: 150px;
+	grid-column: 4;
+	font-size: 1.5em;
+	color: aliceblue;
+	border: 1px solid orange;
+	border-radius: 5px;
+}
+
+
